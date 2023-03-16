@@ -131,7 +131,7 @@ function appMenu() {
             const pass = answer.match(/^[1-9]\d*$/);
             if (pass) {
               if (idArray.includes(answer)) {
-                return "This ID is already taken buddy.";
+                return "This ID is already taken, try again!";
               } else {
                 return true;
               }
